@@ -1,4 +1,4 @@
-# spring-cloud-movie-recommendation
+# Spring-Cloud-Movie-Recommendation
 Spring Cloud Microservices - Movie Recommendation System
 
 The application includes the following microservices.
