@@ -26,7 +26,7 @@ To run configuration service, open terminal in root directory and execute:
 
 ```mvn spring-boot:run```
 
-It will run on __localhost:8888__. This service connects to [this] (https://github.com/mdeket/spring-cloud-example-config-repo) github repository
+It will run on __localhost:8888__. This service connects to [this] (https://github.com/burakddev/spring-cloud-config-movie-recommendations.git) github repository
 and loads property files for other services. 
 
 ## Eureka Discovery Service
