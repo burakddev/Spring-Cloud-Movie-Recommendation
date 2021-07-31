@@ -42,7 +42,7 @@ Eureka starts on localhost:8761.
 ## User Service
 
 Contains all users for this system. They are all stored in UserSOA database. Before starting user service, you must have MySQL installed and running on localhost:3306 with UserSOA database created.
-All other db properties are stored [here](https://github.com/mdeket/spring-cloud-example-config-repo/blob/master/user-service-default.yml)
+All other db properties are stored [here](https://github.com/burakddev/spring-cloud-config-movie-recommendations/blob/master/user-service-default.yml)
 To run user service, do the same as for the last two services.
 
 By starting the app, spring runs data.sql script with 50 users, with names and emails. Script can be found in resource folder.
@@ -52,7 +52,7 @@ App will run on localhost:8001.
 
 Is in charge of movies. Before starting this service, just be sure to have installed and a running mongodb instance on default port.
 To populate database, run __Movie Service - Dummy Data__ request from postman collection you imported.
-To start movie service, do the same as for last three services, just position yourself inside of movie service project :grin: .
+To start movie service, do the same as for last three services, just position yourself inside of movie service project .
 
 ## Recommendation Service
 
